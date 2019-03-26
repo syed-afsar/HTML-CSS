@@ -1,0 +1,68 @@
+SHAKE HOVER BUTTON
+
+HTML FILE:
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IMAGE SLIDE VIEWS</title>
+  <link rel="stylesheet" href="style.css" >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="center">
+    <a class="btn">CLICK ME</a>
+
+</div>
+
+</body>
+</html>
+
+
+CSS FILE:
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Cambria;
+    background-color: darkgrey;
+}
+.center{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    display:block;
+    font-size: 100px;
+    padding:10px 20px;
+    color:white;
+    background: #273746;
+    cursor: pointer;
+}
+
+.btn:hover{
+    animation: shake 0.10s infinite;
+}
+@keyframes shake{
+    0%{
+        transform: translate(0px,0px) rotate(0deg);
+    }
+
+   25%{
+        transform: translate(1px,1px) rotate(1deg);
+    }
+
+    50%{
+        transform: translate(-1px,-1px) rotate(-1deg);
+    }
+
+    75%{
+        transform: translate(5px,-1px) rotate(2deg);
+    }
+    100%{
+        transform: translate(-1px,1px) rotate(-1deg);
+    }
+}
