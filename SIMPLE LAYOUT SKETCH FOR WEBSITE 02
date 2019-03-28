@@ -1,0 +1,202 @@
+HTML CODE:
+
+<html>
+
+<head>
+    <title>layout2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wlayout">
+        <div class="header">
+            <div id="logo"></div>
+            <div class="menus1"></div>
+            <div class="menus2"></div>
+            <div class="menus3"></div>
+            <div class="menus4"></div>
+        </div>
+
+        <div class="imageslide"></div>
+
+         <div class="cont">
+             <div class="leftpanel"></div>
+         <div class="rightpanel">
+              <div class="rgtop"></div>
+              <div class="rgbottom"></div>
+         </div>
+         <div class="footer"></div>
+    </div>
+</body>
+
+</html>
+
+
+
+CSS CODE:
+
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+.wlayout{
+    
+    border: solid 2px red;
+    width: 1400px;
+    height: 1200px;
+    margin:25%;
+    margin-top:10%;
+}
+.header{
+    border: solid 1px red;
+    width: 1400px;
+    height: 200px;
+    background-color: beige;
+    
+
+}
+#logo{
+    margin:30px;
+    padding:10px;
+    width:150px;
+    height:120px;
+    background-color: darkolivegreen;
+
+}
+.menus1{
+    width:150px;
+    height: 120px;
+    border: solid 1px red;
+    float:right;
+    margin-top:-160px;
+    margin-right:70px;
+    background-color:rosybrown;
+
+}
+.menus1:hover{
+    width:150px;
+    height: 120px;
+    border: solid 1px red;
+    float:right;
+    margin-top:-160px;
+    margin-right:70px;
+    background-color:seagreen;
+
+}
+.menus2{
+    width:150px;
+    height: 120px;
+    border: solid 1px red;
+    float:right;
+    margin-top:-160px;
+    margin-right:220px;
+    background-color:brown;
+
+}
+.menus2:hover{
+    width:150px;
+    height: 120px;
+    border: solid 1px red;
+    float:right;
+    margin-top:-160px;
+    margin-right:220px;
+    background-color:azure;
+
+}
+.menus3{
+    width:150px;
+    height: 120px;
+    border: solid 1px red;
+    float:right;
+    margin-top:-160px;
+    margin-right:370px;
+    background-color:goldenrod;
+
+}
+.menus3:hover{
+    width:150px;
+    height: 120px;
+    border: solid 1px red;
+    float:right;
+    margin-top:-160px;
+    margin-right:370px;
+    background-color:lightpink;
+
+}
+
+.menus4{
+    width:150px;
+    height: 120px;
+    border: solid 1px red;
+    float:right;
+    margin-top:-160px;
+    margin-right:520px;
+    background-color:hotpink;
+
+}
+
+.menus4:hover{
+    width:150px;
+    height: 120px;
+    border: solid 1px red;
+    float:right;
+    margin-top:-160px;
+    margin-right:520px;
+    background-color:peru;
+
+}
+.imageslide{
+    border: solid 1px red;
+    width: 1400px;
+    height: 150px;
+    background-color:#081A2B;
+    
+
+}
+.cont{
+    border: solid 2px;
+    width: 1400px;
+    height: 750px;
+    background-color:#AB5774;
+}
+.leftpanel{
+    margin-top:25px;
+    border: solid 2px red;
+    width: 25%;
+    height: 700px;
+    background-color:#249ADE;
+    float:left;
+}
+.rightpanel{
+    margin-top:25px;
+
+    border: solid 2px red;
+    width: 74%;
+    height: 700px;
+    background-color:#ED9421;
+    float:right;
+
+}
+.rgtop{
+    border: solid 2px red;
+    width: 85%;
+    height: 250px;
+    background-color:#76654E;
+    margin:70px;
+}
+.rgbottom{
+    border: solid 2px red;
+    width: 85%;
+    height: 250px;
+    background-color:#6E9150;
+    margin:70px;
+}
+.footer{
+    border: solid 1px;
+    width: 1390px;
+    height: 80px;
+    background-color:#258E89;
+    margin-top:755px;
+    padding:2px;
+}
