@@ -1,0 +1,108 @@
+HTML:
+
+<html>
+
+<head>
+    <title>LOGIN PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>LOG IN</h1>
+        <form action="index.html" method="POST">
+            <div class="tbox">
+                <input type="text" placeholder="@username" value="">
+            </div>
+            <div class="tbox">
+                <input type="password" placeholder="password" value="">
+            </div>
+            <input class="btn" type="submit" name="" value="LOG IN">
+
+        </form>
+        <a class="b1" href="#">FORGET PASSWORD?</a>
+        <br>
+        <a class="b2" href="#">CREATE ACCOUNT</a>
+    </div>
+</body>
+
+</html>
+
+
+CSS CODE:
+
+body{
+    background-color: gray;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+ width:360px;
+    height:600px;
+    background: url(bg.png);
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align:center;
+
+}
+.container h1{
+    font-size: 40pt;
+margin-top:124px;
+margin-bottom:52px;
+}
+
+.tbox{
+    width:254px;
+    height: 41px;   
+    background-color: #e4dfdf;
+    border-radius: 10px;
+    margin:10px auto ;
+    
+}
+.tbox input{
+    background:none;
+    border:none;
+    outline:none;
+    text-align: center;
+    width: 254px;
+    line-height:40px;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 10pt;
+}
+.btn{
+    width:160px;
+    height: 42px;   
+    background-color: #106e94;
+    border-radius: 10px;
+    margin:10px auto ;
+    display:block;
+    border:none;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 10pt;
+color:white;
+cursor: pointer;
+margin-top:24px;
+
+}
+.b1{
+    color:white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 10pt;
+text-align: center;
+text-decoration: none;
+margin-bottom:60px;
+}
+.b2{
+    color:white;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+font-size: 14pt;
+text-align: center;
+text-decoration: none;
+
+}
